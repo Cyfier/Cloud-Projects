@@ -26,4 +26,4 @@ This profile showcases hands‑on projects built with Azure, Terraform, RBAC, Az
 
 I’m always open to discussing cloud engineering, architecture, or opportunities.
 
-LinkedIn: www.linkedin.com/in/jonathan-burgher-212055171
+LinkedIn: www.linkedin.com/in/jonathanburgher
