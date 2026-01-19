@@ -122,7 +122,7 @@ This ensures elasticity without oscillation.
 
 - Administrative access is provided through a jumpbox (cost‑effective) or Azure Bastion (enterprise-grade)
 
-## Deployment Steps (High-Level)
+## Deployment Steps
 
 1. Create the Virtual Network and subnets
 
