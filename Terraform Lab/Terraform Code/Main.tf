@@ -114,4 +114,5 @@ resource "azurerm_key_vault" "kv" {
   tags = local.tags
 }
 
+
 data "azurerm_client_config" "current" {}
