@@ -1,14 +1,14 @@
 # Cloud-Projects
 
-## Hi, I'm Jonathan — Cloud Engineer | Azure Specialist | IaC Builder
+## Hi, I'm Jonathan — Cloud Engineer | Azure & AWS | IaC Builder
 
 ### My Focuses:
 
-- Azure Cloud Engineering & Administration
+- Cloud Engineering & Administration
 
 - Infrastructure‑as‑Code (Terraform, Bicep fundamentals)
 
-- Azure Governance (Policy, RBAC, Cost Management)
+- Governance (Policy, RBAC, IAM)
 
 - Secure architecture patterns
 
@@ -24,6 +24,6 @@ This profile showcases hands‑on projects built with Azure, Terraform, RBAC, Az
 
 ## Let's Connect !
 
-I’m always open to discussing cloud engineering, architecture, or opportunities.
+I’m always open to discussing cloud engineering, architecture, security, or opportunities.
 
 LinkedIn: www.linkedin.com/in/jonathanburgher
