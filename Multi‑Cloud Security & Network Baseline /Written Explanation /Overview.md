@@ -67,3 +67,106 @@ Terraform provisions a secure, segmented Azure network including:
 
 This creates a production‑ready Azure network aligned with enterprise patterns.
 
+### AWS Network Foundation
+
+The AWS side mirrors the same principles:
+
+- VPC with public and private subnets
+
+- Route tables, NAT gateway, and IGW
+
+- Security Groups enforcing controlled ingress/egress
+
+- Application Load Balancer for future workloads
+
+### Why This Matters
+
+This network baseline solves common multi‑cloud challenges:
+
+- Prevents flat, insecure network topologies
+
+- Establishes segmentation from day one
+
+- Ensures consistent traffic control across clouds
+
+- Provides a foundation for private endpoints, service meshes, or future compute layers
+
+## Governance Controls
+
+Although AzureRM v4.x removed Terraform support for Azure Policy resources, governance controls were still applied manually to ensure a secure baseline. These include:
+
+### Tag Enforcement
+
+Ensures all resources include required metadata such as:
+
+- Owner
+
+- Enviornment
+
+- Cost Center
+
+This supports cost management, accountability, and automation.
+
+### Region Restrictions
+
+Prevents resource sprawl by limiting deployments to approved regions.
+
+### Public IP Guardrails
+
+A custom policy was applied to:
+
+- Deny all public IPs
+
+- Except those explicitly tied to approved load balancers
+
+This enforces secure‑by‑default patterns while allowing necessary ingress points.
+
+### AWS Governance
+
+AWS governance controls include:
+
+- S3 public access block
+
+- IAM guardrails preventing wildcard permissions
+
+- Tag enforcement through IAM conditions
+
+### Why This Matters
+
+Governance is often the missing piece in cloud foundations. These controls:
+
+- Prevent misconfigurations
+
+- Enforce compliance
+
+- Reduce attack surface
+
+- Ensure consistent deployments across teams
+
+Even though Azure Policy was applied manually, the design reflects real enterprise governance patterns.
+
+### Business & Technical Pain Points Solved
+
+-  Identity Fragmentation Across Clouds
+
+Unified identity eliminates duplicate IAM management and enforces consistent RBAC
+
+- Inconsistent Security Baselines
+
+Governance guardrails prevent insecure deployments before they happen.
+
+- Network Sprawl
+
+Segmented VNets/VPCs enforce structure and reduce lateral movement risk.
+
+- Terraform Monolith Complexity
+
+Staged architecture avoids circular dependencies and improves maintainability.
+
+- Lack of Reproducibility
+
+Everything is codified, modular, and redeployable
+
+
+
+
