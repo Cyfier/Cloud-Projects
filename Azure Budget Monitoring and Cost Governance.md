@@ -151,3 +151,6 @@ This project delivers a complete, scalable, and automated Azure Cost Governance 
 - Enterprise‑grade scalability
 
 It demonstrates governance maturity, and the ability to design solutions that align with both technical and business requirements.
+
+<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/d12edfd2-f2f4-4701-b8e8-4ae3c5fe0a9b" />
+
